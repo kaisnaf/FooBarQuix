@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .navbar-brand {
+    height: 60px;
+    padding-top: 5px;
+  }
+  .list-group-item {
+    background-color: #eeeeee;
+    margin-bottom: 15px;
+    padding: 15px;
+  }

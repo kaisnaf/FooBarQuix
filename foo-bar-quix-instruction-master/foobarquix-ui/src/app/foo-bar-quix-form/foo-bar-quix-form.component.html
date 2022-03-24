@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>Foo Bar Quix</h2>
+  <div class="form-group">
+    <label for="inputNumber">Number to convert</label>
+    <input type="number" class="form-control" id="inputNumber"
+           [formControl]="inputNumber" placeholder="inputNumber">
+  </div>
+  <br>
+  <button type="button" (click)="submitNumber()" class="btn btn-primary">Convert</button>
+</div>

@@ -1,0 +1,13 @@
+<div>
+  <div *ngIf="convertedNumbersList.length" class="container">
+    <h2>Already converted values : </h2>
+    <ul class="list-group">
+      <li class="list-group-item my-3 list-group-item"
+          *ngFor="let convertedNumber of convertedNumbersList">
+        {{convertedNumber.numberToConvert}} and the result is {{convertedNumber.result}}
+      </li>
+      <br/>
+    </ul>
+  </div>
+  <app-foo-bar-quix-form (submitNumberOutput)="convertNumber($event)"></app-foo-bar-quix-form>
+</div>
